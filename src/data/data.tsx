@@ -13,7 +13,7 @@ import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
-import heroImage from '../images/SGLC.webp';
+import testimonialImage from '../images/BanishedKeep.png';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
@@ -26,7 +26,7 @@ import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
-import testimonialImage from '../images/testimonial.webp';
+import heroImage from '../images/SGLC.png';
 import {
   About,
   ContactSection,
@@ -73,7 +73,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Seattle based <strong className="text-stone-100">Data Scientist and Analyst</strong>, freshly graduated from <strong className="text-stone-100">University of Washington</strong> with a Master's Degree in Applied and Computational Mathematics'
+        I'm a Seattle based <strong className="text-stone-100">Data Scientist and Analyst</strong>, freshly graduated from <strong className="text-stone-100">University of Washington</strong> with a Master's Degree in Applied and Computational Mathematics
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
               In my free time time, you can catch me playing <strong className="text-stone-100">competetive</strong> video games, organizing and <strong className="text-stone-100">streamhosting</strong> esports events, 
@@ -101,16 +101,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Use this bio section as your way of describing yourself and saying what you do, what technologies you like
-  to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing
-  in.`,
+  description: `For as long as I can remember, games have been in my blood. Throughout the years I have picked up languages like Python, C++, and SQL to pursue a career in Data Science/Analytics/Statistics with machine learning.`,
   aboutItems: [
-    {label: 'Location', text: 'Victoria, BC', Icon: MapIcon},
-    {label: 'Age', text: '29', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Canadian / Irish', Icon: FlagIcon},
-    {label: 'Interests', text: 'Motorcycles, Muay Thai, Banjos', Icon: SparklesIcon},
-    {label: 'Study', text: 'University of Victoria', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Instant Domains, inc.', Icon: BuildingOffice2Icon},
+    {label: 'Location', text: 'Seattle, WA', Icon: MapIcon},
+    {label: 'Age', text: '22', Icon: CalendarIcon},
+    {label: 'Nationality', text: 'American', Icon: FlagIcon},
+    {label: 'Interests', text: 'Gaming, Data Science, Analytics', Icon: SparklesIcon},
+    {label: 'Study', text: 'University of Washington, M.S.', Icon: AcademicCapIcon},
+    {label: 'Volunteering', text: 'CTGP', Icon: BuildingOffice2Icon},
   ],
 };
 
