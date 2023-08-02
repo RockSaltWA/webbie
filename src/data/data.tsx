@@ -104,12 +104,12 @@ export const aboutData: About = {
     profileImageSrc: profilepic,
     description: `For as long as I can remember, games have been in my blood. Throughout the years I have picked up languages like Python, C++, and SQL to pursue a career in Data Science/Analytics/Statistics with machine learning.`,
     aboutItems: [
-        { label: 'Location', text: 'Seattle, WA', Icon: MapIcon },
-        { label: 'Age', text: '22', Icon: CalendarIcon },
-        { label: 'Nationality', text: 'Pacific Northwestern :)', Icon: FlagIcon },
-        { label: 'Interests', text: 'Gaming, Data Science, Analytics', Icon: SparklesIcon },
-        { label: 'Study', text: 'University of Washington, M.S.', Icon: AcademicCapIcon },
-        { label: 'Volunteering', text: 'CTGP', Icon: BuildingOffice2Icon },
+        {label: 'Location', text: 'Seattle, WA', Icon: MapIcon},
+        {label: 'Age', text: '22', Icon: CalendarIcon},
+        {label: 'Nationality', text: 'Pacific Northwestern :)', Icon: FlagIcon},
+        {label: 'Interests', text: 'Gaming, Data Science, Analytics', Icon: SparklesIcon},
+        {label: 'Study', text: 'University of Washington, M.S.', Icon: AcademicCapIcon},
+        {label: 'Volunteering', text: 'CTGP', Icon: BuildingOffice2Icon},
     ],
 };
 
@@ -364,10 +364,10 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-    { label: 'Github', Icon: GithubIcon, href: 'https://github.com/RockSaltWA' },
+    {label: 'Github', Icon: GithubIcon, href: 'https://github.com/RockSaltWA'},
     //{label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-    { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/jack-doughty-894137266/' },
+    {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/jack-doughty-894137266/'},
     //{label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-    { label: 'Discord', Icon: DiscordIcon, href: 'https://www.discordapp.com/users/263514562064678914' },
+    {label: 'Discord', Icon: DiscordIcon, href: 'https://www.discordapp.com/users/263514562064678914'},
     //{label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
 ];
