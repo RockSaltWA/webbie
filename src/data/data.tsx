@@ -8,11 +8,12 @@ import {
   SparklesIcon,
 } from '@heroicons/react/24/outline';
 
+// import InstagramIcon from '../components/Icon/InstagramIcon';
+import DiscordIcon from '../components/Icon/DiscordIcon';
 import GithubIcon from '../components/Icon/GithubIcon';
-import InstagramIcon from '../components/Icon/InstagramIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
-import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
-import TwitterIcon from '../components/Icon/TwitterIcon';
+// import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
+// import TwitterIcon from '../components/Icon/TwitterIcon';
 import testimonialImage from '../images/BanishedKeep.png';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
@@ -105,7 +106,7 @@ export const aboutData: About = {
   aboutItems: [
     {label: 'Location', text: 'Seattle, WA', Icon: MapIcon},
     {label: 'Age', text: '22', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'American', Icon: FlagIcon},
+    {label: 'Nationality', text: 'Pacific Northwestern :)', Icon: FlagIcon},
     {label: 'Interests', text: 'Gaming, Data Science, Analytics', Icon: SparklesIcon},
     {label: 'Study', text: 'University of Washington, M.S.', Icon: AcademicCapIcon},
     {label: 'Volunteering', text: 'CTGP', Icon: BuildingOffice2Icon},
@@ -117,70 +118,75 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
+    name: 'Languages',
     skills: [
       {
-        name: 'English',
-        level: 10,
-      },
-      {
-        name: 'French',
-        level: 4,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
-      },
-    ],
-  },
-  {
-    name: 'Frontend development',
-    skills: [
-      {
-        name: 'React',
+        name: 'Python',
         level: 9,
       },
       {
-        name: 'Typescript',
+        name: 'R',
         level: 7,
       },
       {
-        name: 'GraphQL',
+        name: 'SQL',
         level: 6,
       },
-    ],
-  },
-  {
-    name: 'Backend development',
-    skills: [
       {
-        name: 'Node.js',
-        level: 8,
-      },
-      {
-        name: 'Rust',
-        level: 5,
-      },
-      {
-        name: 'Golang',
+        name: 'C++',
         level: 4,
       },
     ],
   },
   {
-    name: 'Mobile development',
+    name: 'Data Visualization Software',
     skills: [
       {
-        name: 'React Native',
+        name: 'Tableau',
+        level: 8,
+        },
+        {
+            name: 'Excel',
+            level: 6,
+        },
+      {
+        name: 'D3.js',
+        level: 3,
+      },
+
+    ],
+  },
+  {
+    name: 'Mathematics',
+    skills: [
+      {
+        name: 'Linear Algebra',
         level: 9,
       },
       {
-        name: 'Flutter',
-        level: 4,
+        name: 'PDEs and ODEs',
+        level: 7,
       },
       {
-        name: 'Swift',
-        level: 3,
+        name: 'Multivariate Calculus',
+        level: 7,
+      },
+    ],
+  },
+  {
+    name: 'Soft Skills',
+    skills: [
+      {
+        name: 'Communication and Collaboration',
+        level: 9,
+      },
+      {
+        name: 'Logic and Decision Making',
+        level: 9,
+      },
+      {
+        name: 'Time Management',
+        level: 7,
       },
     ],
   },
@@ -193,7 +199,7 @@ export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Project title 1',
     description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    url: 'https://rocksaltwa.com/assets/GPMarioBrief.pdf',
     image: porfolioImage1,
   },
   {
@@ -263,42 +269,40 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
   {
-    date: 'April 2007',
-    location: 'Clown college',
-    title: 'Masters in Beer tasting',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'August 2023',
+    location: 'University of Washington',
+    title: 'Masters in Applied and Computational Mathematics',
+    content: <p>Focused particularly on data science and analytics, along with data visualization</p>,
   },
   {
-    date: 'March 2003',
-    location: 'School of Business',
-    title: 'What did you study 101',
-    content: <p>Describe your experience at school, what you learned, what useful skills you have acquired etc.</p>,
+    date: 'August 2022',
+    location: 'College of Wooster',
+    title: 'Applied Mathematics',
+      content: <p>Picked up the fundamentals of machine learning and wrote a thesis on Optimizing Paths in a Weighted Plane</p>,
   },
 ];
 
 export const experience: TimelineItem[] = [
-  {
-    date: 'March 2010 - Present',
-    location: 'Awesome Development Company',
-    title: 'Senior UX Engineer',
-    content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
-    ),
-  },
-  {
-    date: 'March 2007 - February 2010',
-    location: 'Garage Startup Studio',
-    title: 'Junior bug fixer',
-    content: (
-      <p>
-        Describe work, special projects, notable achievements, what technologies you have been working with, and
-        anything else that would be useful for an employer to know.
-      </p>
-    ),
-  },
+{
+date: 'November 2022 - Present',
+location: 'CTGP Revolution',
+    title: 'Administrator of Analytics and Competitive Play',
+content: (
+    <p>
+    I moderate and organize events not only within the competetive community, but the greater community of over 10,000 monthly active players. Much of this involves feedback and polling from the scale of individuals to the whole community at large, and then pitching proposed changes to the CEO directly. I developed models and heuristics to help more analytically decide removal criteria for software. I also serve as a liason between two diametrically opposed sections of the community, casual and competititve players. I have to settle significant disagreements both small and large, ranging from a frustrated player to threats of DMCA.  
+    </p>
+),
+},
+{
+date: 'December 2020 - November 2022',
+location: 'CTGP Revolution',
+    title: 'QA + Approval Analyst',
+content: (
+    <p>
+    I evaluated and helped provide critical feedback for developing software seeking inclusion in the game. Through bugtesting and playtesting, I managed to significantly assist in the creation of 7 tracks to the point of being a named contributor, with hundreds of others also receiving various feedback over my 2 years volunteering here. 
+    </p>
+),
+},
 ];
 
 /**
@@ -330,28 +334,28 @@ export const testimonial: TestimonialSection = {
  */
 
 export const contact: ContactSection = {
-  headerText: 'Get in touch.',
-  description: 'Here is a good spot for a message to your readers to let them know how best to reach out to you.',
+  headerText: 'Get in touch!',
+  description: 'I would love to answer any potential questions you have for me, feel free to reach out!',
   items: [
     {
       type: ContactType.Email,
-      text: 'reachout@timbaker.me',
-      href: 'mailto:reachout@timbaker.me',
+      text: 'jdoughtyggwp@gmail.com',
+          href: 'mailto:jdoughtyggwp@gmail.com',
     },
     {
       type: ContactType.Location,
-      text: 'Victoria BC, Canada',
-      href: 'https://www.google.ca/maps/place/Victoria,+BC/@48.4262362,-123.376775,14z',
+      text: 'Seattle, Washington',
+        href: 'https://www.google.com/maps/place/Seattle,+WA/@47.6130386,-122.4979445,12z/data=!3m1!4b1!4m6!3m5!1s0x5490102c93e83355:0x102565466944d59a!8m2!3d47.6062095!4d-122.3320708!16zL20vMGQ5anI?entry=ttu',
     },
     {
-      type: ContactType.Instagram,
-      text: '@tbakerx',
-      href: 'https://www.instagram.com/tbakerx/',
+      type: ContactType.Discord,
+      text: 'rocksaltwa',
+      href: 'https://www.discordapp.com/users/263514562064678914',
     },
     {
       type: ContactType.Github,
-      text: 'tbakerx',
-      href: 'https://github.com/tbakerx',
+      text: 'rocksaltwa',
+        href: 'https://github.com/RockSaltWA',
     },
   ],
 };
@@ -360,9 +364,10 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/tbakerx'},
-  {label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/timbakerx/'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
+  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/RockSaltWA'},
+  //{label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
+  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/jack-doughty-894137266/'},
+  //{label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
+  {label: 'Discord', Icon: DiscordIcon, href: 'https://www.discordapp.com/users/263514562064678914'},
+  //{label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
 ];
