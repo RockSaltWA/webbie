@@ -74,7 +74,7 @@ export const heroData: Hero = {
     description: (
         <>
             <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-                I'm a Seattle based <strong className="text-stone-100">Data Scientist and Analyst</strong>, freshly graduated from <strong className="text-stone-100">University of Washington</strong> with a Master's Degree in Applied and Computational Mathematics
+                I'm a Seattle based <strong className="text-stone-100">Data Scientist and Analyst</strong>, freshly graduated from <strong className="text-stone-100">University of Washington</strong> with a Master's Degree in Applied and Computational Mathematics!
             </p>
             <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
                 In my free time time, you can catch me playing <strong className="text-stone-100">competetive</strong> video games, organizing and <strong className="text-stone-100">streamhosting</strong> esports events,
