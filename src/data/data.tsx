@@ -196,72 +196,73 @@ export const skills: SkillGroup[] = [
  * Portfolio section
  */
 export const portfolioItems: PortfolioItem[] = [
+
+  //{
+  //  title: 'Project title 2',
+  //  description: 'Give a short description of your project here.',
+  //  url: 'https://timbaker.me',
+  //  image: porfolioImage2,
+  //},
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://rocksaltwa.com/assets/GPMarioBrief.pdf',
-    image: porfolioImage1,
-  },
-  {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage2,
-  },
-  {
-    title: 'Project title 3',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Evolution of Multi-Platform Games',
+    description: 'Visualization showcasing the proliferation of Multi-Platform games and their incredible success.',
+      url: 'https://rocksaltwa.github.io/Evolution-of-Multi-Platform-Games/',
     image: porfolioImage3,
   },
+  //{
+  //  title: 'Project title 5',
+  //  description: 'Give a short description of your project here.',
+  //  url: 'https://timbaker.me',
+  //  image: porfolioImage5,
+  //},
   {
-    title: 'Project title 4',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage4,
-  },
-  {
-    title: 'Project title 5',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage5,
-  },
-  {
-    title: 'Project title 6',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Binomial Distribution Within Gameplay Behavior',
+    description: 'Recognizing the probability and distribution of track picks and their impact on behavior in-game.',
+    url: 'https://rocksaltwa.com/assets/BinomialDistribution.pdf',
     image: porfolioImage6,
-  },
+    },
+    {
+        title: 'Gimmick or Gameplay: Addressing the GP Mario Beach Problem',
+        description: 'Using data analytics and polling metrics to vouch for the removal of GP Mario Beach from the pack.',
+        url: 'https://rocksaltwa.com/assets/GPMarioBrief.pdf',
+        image: porfolioImage1,
+    },
+  //{
+  //  title: 'Project title 7',
+  //  description: 'Give a short description of your project here.',
+  //  url: 'https://timbaker.me',
+  //  image: porfolioImage7,
+  //},
   {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Optimizing Paths in a Weighted Plane',
+    description: 'My undergraduate thesis where I analyze methodology to apply optimized weighted plates to optimized gaming strategy.',
+    url: 'https://rocksaltwa.com/assets/Capstone_Project.pdf',
     image: porfolioImage8,
   },
+  //{
+  //  title: 'Project title 9',
+  //  description: 'Give a short description of your project here.',
+  //  url: 'https://timbaker.me',
+  //  image: porfolioImage9,
+  //},
   {
-    title: 'Project title 9',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage9,
-  },
-  {
-    title: 'Project title 10',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Esport Earnings: Are All Games Created Equal?',
+    description: 'A visualization displaying the earnings of Esports players all around the world.',
+    url: 'https://rocksaltwa.github.io/A3_Esports.io/',
     image: porfolioImage10,
   },
-  {
-    title: 'Project title 11',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
-    image: porfolioImage11,
-  },
+  //{
+  //  title: 'Project title 11',
+  //  description: 'Give a short description of your project here.',
+  //  url: 'https://timbaker.me',
+  //  image: porfolioImage11,
+  //},
+    {
+        title: 'CTGP Mid 2023 Poll Visualization',
+        description: 'Poll results from the midterm MKW season visualized for future analysis',
+        url: 'https://rocksaltwa.github.io/A3_Esports.io/',
+        image: porfolioImage4,
+    },
 ];
 
 /**
