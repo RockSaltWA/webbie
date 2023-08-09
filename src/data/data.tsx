@@ -16,16 +16,16 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
 import testimonialImage from '../images/BanishedKeep.png';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
+//import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
 import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
+//import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
 import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
+//import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
 import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
+//import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+//import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import heroImage from '../images/SGLC.png';
 import {
@@ -46,7 +46,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
     title: 'Jack Doughty\'s personal website',
-    description: "https://www.youtube.com/watch?v=J_Eb1RKs40I",
+    description: "Looking for work!",
 };
 
 /**
@@ -202,12 +202,12 @@ export const portfolioItems: PortfolioItem[] = [
         url: 'https://rocksaltwa.com/assets/GPMarioBrief.pdf',
         image: porfolioImage1,
     },
-    {
-        title: 'Project title 2',
-        description: 'Give a short description of your project here.',
-        url: 'https://timbaker.me',
-        image: porfolioImage2,
-    },
+    //{
+    //    title: 'Project title 2',
+    //    description: 'Give a short description of your project here.',
+    //    url: 'https://timbaker.me',
+    //    image: porfolioImage2,
+    //},
     {
         title: 'Evolution of Multi-Platform Games',
         description: 'Visualization showcasing the proliferation of Multi-Platform games and their incredible success.',
@@ -220,48 +220,48 @@ export const portfolioItems: PortfolioItem[] = [
         url: 'https://rocksaltwa.github.io/A3_Esports.io/',
         image: porfolioImage4,
     },
-    {
-        title: 'Project title 5',
-        description: 'Give a short description of your project here.',
-        url: 'https://timbaker.me',
-        image: porfolioImage5,
-    },
+    //{
+    //    title: 'Project title 5',
+    //    description: 'Give a short description of your project here.',
+    //    url: 'https://timbaker.me',
+    //    image: porfolioImage5,
+    //},
     {
         title: 'Binomial Distribution Within Gameplay Behavior',
         description: 'Recognizing the probability and distribution of track picks and their impact on behavior in-game.',
         url: 'https://rocksaltwa.com/assets/BinomialDistribution.pdf',
         image: porfolioImage6,
     },
-    {
-        title: 'Project title 7',
-        description: 'Give a short description of your project here.',
-        url: 'https://timbaker.me',
-        image: porfolioImage7,
-    },
+    //{
+    //    title: 'Project title 7',
+    //    description: 'Give a short description of your project here.',
+    //    url: 'https://timbaker.me',
+    //    image: porfolioImage7,
+    //},
     {
         title: 'Optimizing Paths in a Weighted Plane',
         description: 'My undergraduate thesis where I analyze methodology to apply optimized weighted plates to optimized gaming strategy.',
         url: 'https://rocksaltwa.com/assets/Capstone_Project.pdf',
         image: porfolioImage8,
     },
-    {
-        title: 'Project title 9',
-        description: 'Give a short description of your project here.',
-        url: 'https://timbaker.me',
-        image: porfolioImage9,
-    },
+    //{
+    //    title: 'Project title 9',
+    //    description: 'Give a short description of your project here.',
+    //    url: 'https://timbaker.me',
+    //    image: porfolioImage9,
+    //},
     {
         title: 'Esport Earnings: Are All Games Created Equal?',
         description: 'A visualization displaying the earnings of Esports players all around the world.',
         url: 'https://rocksaltwa.github.io/A3_Esports.io/',
         image: porfolioImage10,
     },
-    {
-        title: 'Project title 11',
-        description: 'Give a short description of your project here.',
-        url: 'https://timbaker.me',
-        image: porfolioImage11,
-    },
+    //{
+    //    title: 'Project title 11',
+    //    description: 'Give a short description of your project here.',
+    //    url: 'https://timbaker.me',
+    //    image: porfolioImage11,
+    //},
 ];
 
 /**
@@ -312,20 +312,20 @@ export const testimonial: TestimonialSection = {
     imageSrc: testimonialImage,
     testimonials: [
         {
-            name: 'John Doe',
-            text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-            image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+            name: 'Nathan Haulman',
+            text: 'Jack\'s impact within CTGP cannot be understated. His exemplary communication and problem solving has lead to a marked improvement in public relations between the pack\'s administration and its playerbase. Furthermore, his experience in data collection and analysis has guided CTGP to make business decisions that best tailor the needs of its playerbase.',
+            image: 'https://cdn.discordapp.com/attachments/719758392142463007/1138670628690460712/Nate.png',
         },
-        {
-            name: 'Jane Doe',
-            text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-            image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
-        },
-        {
-            name: 'Someone else',
-            text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-            image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
-        },
+        //{
+        //    name: 'Jane Doe',
+        //    text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
+        //    image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+        //},
+        //{
+        //    name: 'Someone else',
+        //    text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
+        //    image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+        //},
     ],
 };
 
