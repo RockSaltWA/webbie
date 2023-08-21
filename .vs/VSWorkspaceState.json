@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\data"
   ],
-  "SelectedNode": "\\C:\\Users\\jackd\\OneDrive\\Desktop\\APPS\\WEBSITE CODE",
+  "SelectedNode": "\\src\\data\\data.tsx",
   "PreviewInSolutionExplorer": false
 }

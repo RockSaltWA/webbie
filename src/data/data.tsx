@@ -289,7 +289,7 @@ export const experience: TimelineItem[] = [
         title: 'Administrator of Analytics and Competitive Play',
         content: (
             <p>
-                I moderate and organize events not only within the competetive community, but the greater community of over 10,000 monthly active players. Much of this involves feedback and polling from the scale of individuals to the whole community at large, and then pitching proposed changes to the CEO directly. I developed models and heuristics to help more analytically decide removal criteria for software. I also serve as a liason between two diametrically opposed sections of the community, casual and competititve players. I have to settle significant disagreements both small and large, ranging from a frustrated player to threats of DMCA.
+                I moderate and organize events not only within the competitive community, but the greater community of over 10,000 monthly active players. Much of this involves feedback and polling from the scale of individuals to the whole community at large, and then pitching proposed changes to the CEO directly. I developed models and heuristics to help more analytically decide removal criteria for software. I also serve as a liaison between two diametrically opposed sections of the community, casual and competititve players. I have to settle significant disagreements both small and large, ranging from a frustrated player to threats of DMCA.
             </p>
         ),
     },
