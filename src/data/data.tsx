@@ -217,7 +217,7 @@ export const portfolioItems: PortfolioItem[] = [
     {
         title: 'CTGP Mid 2023 Poll Visualization',
         description: 'Poll results from the midterm MKW season visualized for future analysis',
-        url: 'https://rocksaltwa.github.io/A3_Esports.io/',
+        url: 'https://rocksaltwa.github.io/CTGP_Mid2023_Results/',
         image: porfolioImage4,
     },
     //{
