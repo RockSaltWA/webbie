@@ -109,7 +109,7 @@ export const aboutData: About = {
         {label: 'Nationality', text: 'Pacific Northwestern :)', Icon: FlagIcon},
         {label: 'Interests', text: 'Gaming, Data Science, Analytics', Icon: SparklesIcon},
         {label: 'Study', text: 'University of Washington, M.S.', Icon: AcademicCapIcon},
-        {label: 'Volunteering', text: 'CTGP', Icon: BuildingOffice2Icon},
+        {label: 'Work', text: 'Hanson Consulting Group | Microsoft', Icon: BuildingOffice2Icon},
     ],
 };
 
@@ -285,8 +285,8 @@ export const education: TimelineItem[] = [
 export const experience: TimelineItem[] = [
     {
         date: 'August 2023 - Present',
-        location: 'CTGP Revolution',
-        title: 'Administrator of Analytics and Competitive Play',
+        location: 'Hanson Consulting Group / Microsoft',
+        title: 'Gaming Data Analyst',
         content: (
             <p>
                 As a Gaming Data Analyst at Hanson Consulting Group, I specialize in dissecting complex datasets to uncover actionable insights within the PC and console gaming industry. My role encompasses a deep dive into gaming trends and player behaviors, utilizing advanced data analysis techniques to inform strategic decision-making. This dynamic position combines rigorous data management with practical gameplay analysis, positioning me as a key contributor to shaping business intelligence and market strategy for our clients.
