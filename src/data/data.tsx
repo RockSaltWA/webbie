@@ -102,14 +102,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
     profileImageSrc: profilepic,
-    description: `For as long as I can remember, games have been in my blood. Throughout the years I have picked up languages like Python, C++, and SQL to pursue a career in Data Science/Analytics/Statistics with machine learning.`,
+    description: `For as long as I can remember, math and analytics. Throughout the years I have picked up languages like Python, C++, and SQL to pursue a career in Data Science/Analytics/Statistics with machine learning.`,
     aboutItems: [
         {label: 'Location', text: 'Seattle, WA', Icon: MapIcon},
-        {label: 'Age', text: '22', Icon: CalendarIcon},
+        {label: 'Age', text: '23', Icon: CalendarIcon},
         {label: 'Nationality', text: 'Pacific Northwestern :)', Icon: FlagIcon},
-        {label: 'Interests', text: 'Gaming, Data Science, Analytics', Icon: SparklesIcon},
+        {label: 'Interests', text: 'Data Science + Analytics', Icon: SparklesIcon},
         {label: 'Study', text: 'University of Washington, M.S.', Icon: AcademicCapIcon},
-        {label: 'Work', text: 'Hanson Consulting Group | Microsoft', Icon: BuildingOffice2Icon},
+        {label: 'Work', text: 'Scale AI | Queue Manager', Icon: BuildingOffice2Icon},
     ],
 };
 
@@ -118,14 +118,14 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
     {
-        name: 'Languages',
+        name: 'Skills',
         skills: [
             {
-                name: 'Python',
+                name: 'Mathematics',
                 level: 9,
             },
             {
-                name: 'R',
+                name: 'Python',
                 level: 7,
             },
             {
@@ -133,7 +133,7 @@ export const skills: SkillGroup[] = [
                 level: 6,
             },
             {
-                name: 'C++',
+                name: 'R',
                 level: 4,
             },
         ],
@@ -160,7 +160,7 @@ export const skills: SkillGroup[] = [
         name: 'Mathematics',
         skills: [
             {
-                name: 'Linear Algebra',
+                name: 'Number Theory',
                 level: 9,
             },
             {
@@ -284,7 +284,27 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
     {
-        date: 'August 2023 - Present',
+        date: 'May 2024 - Present',
+        location: 'Scale AI',
+        title: 'Gaming Data Analyst',
+        content: (
+            <p>
+                Queue Managing involves overseeing a pipeline of sometimes thousands of contractors submitting their mathematical data to 
+            </p>
+        ),
+    },
+    {
+        date: 'Jan 2023 - April 2024',
+        location: 'Remotasks / Scale AI',
+        title: 'Gaming Data Analyst',
+        content: (
+            <p>
+                As a Gaming Data Analyst at Hanson Consulting Group, I specialize in dissecting complex datasets to uncover actionable insights within the PC and console gaming industry. My role encompasses a deep dive into gaming trends and player behaviors, utilizing advanced data analysis techniques to inform strategic decision-making. This dynamic position combines rigorous data management with practical gameplay analysis, positioning me as a key contributor to shaping business intelligence and market strategy for our clients.
+            </p>
+        ),
+    },
+    {
+        date: 'August 2023 - December 2023',
         location: 'Hanson Consulting Group / Microsoft',
         title: 'Gaming Data Analyst',
         content: (
