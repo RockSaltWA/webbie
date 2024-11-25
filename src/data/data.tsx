@@ -286,20 +286,20 @@ export const experience: TimelineItem[] = [
     {
         date: 'May 2024 - Present',
         location: 'Scale AI',
-        title: 'Gaming Data Analyst',
+        title: 'GenAI Applied Mathematics Queue Manager',
         content: (
             <p>
-                Queue Managing involves overseeing a pipeline of sometimes thousands of contractors submitting their mathematical data to 
+                Queue Managing involves overseeing multiple project data pipelines, consisting of thousands of contractors submitting their complex mathematical problems to a client in multimillion dollar contracts. 
             </p>
         ),
     },
     {
-        date: 'Jan 2023 - April 2024',
+        date: 'Jan 2024 - April 2024',
         location: 'Remotasks / Scale AI',
-        title: 'Gaming Data Analyst',
+        title: 'Applied Mathematics Consultant',
         content: (
             <p>
-                As a Gaming Data Analyst at Hanson Consulting Group, I specialize in dissecting complex datasets to uncover actionable insights within the PC and console gaming industry. My role encompasses a deep dive into gaming trends and player behaviors, utilizing advanced data analysis techniques to inform strategic decision-making. This dynamic position combines rigorous data management with practical gameplay analysis, positioning me as a key contributor to shaping business intelligence and market strategy for our clients.
+                Creating high quality mathematical questions for data labeling purposes. 
             </p>
         ),
     },
