@@ -1,4 +1,4 @@
-import {
+﻿import {
     AcademicCapIcon,
     ArrowDownTrayIcon,
     BuildingOffice2Icon,
@@ -27,6 +27,7 @@ import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
 //import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
+import ref1pic from '../images/refs/James.jpg';
 import heroImage from '../images/SGLC.png';
 import {
     About,
@@ -74,11 +75,11 @@ export const heroData: Hero = {
     description: (
         <>
             <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-                I'm a Seattle based <strong className="text-stone-100">Data Scientist and Analyst</strong>, freshly graduated from <strong className="text-stone-100">University of Washington</strong> with a Master's Degree in Applied and Computational Mathematics!
+                I'm a Seattle based <strong className="text-stone-100">Data Scientist and Analyst</strong>, and graduated from <strong className="text-stone-100">University of Washington</strong> with a Master's Degree in Applied and Computational Mathematics!
             </p>
             <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
                 In my free time, you can catch me playing <strong className="text-stone-100">competitive</strong> video games, organizing and <strong className="text-stone-100">streamhosting</strong> esports events,
-                creating polls and data sets as a <strong className="text-stone-100">community manager</strong>, or cooking up some crazy food and drink! Some nice spray paint could not go amiss either :D
+                creating polls and data sets as a <strong className="text-stone-100">community manager</strong>, or cooking up some crazy food and drink! Watching some football wouldn't go amiss either :D
             </p>
         </>
     ),
@@ -102,14 +103,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
     profileImageSrc: profilepic,
-    description: `For as long as I can remember, math and analytics. Throughout the years I have picked up languages like Python, C++, and SQL to pursue a career in Data Science/Analytics/Statistics with machine learning.`,
+    description: `Applied-math brain, product-ops heart: I herd data, deadlines, and humans into clean pipelines and shipped outcomes. Former Xbox BI and Scale AI team lead, now hunting for problems big enough to be fun.`,
     aboutItems: [
         {label: 'Location', text: 'Seattle, WA', Icon: MapIcon},
-        {label: 'Age', text: '23', Icon: CalendarIcon},
+        {label: 'Age', text: '24', Icon: CalendarIcon},
         {label: 'Nationality', text: 'Pacific Northwestern :)', Icon: FlagIcon},
         {label: 'Interests', text: 'Data Science + Analytics', Icon: SparklesIcon},
         {label: 'Study', text: 'University of Washington, M.S.', Icon: AcademicCapIcon},
-        {label: 'Work', text: 'Scale AI | Queue Manager', Icon: BuildingOffice2Icon},
+        {label: 'Work', text: 'Scale AI | Team Lead', Icon: BuildingOffice2Icon},
     ],
 };
 
@@ -126,11 +127,11 @@ export const skills: SkillGroup[] = [
             },
             {
                 name: 'Python',
-                level: 7,
+                level: 5,
             },
             {
                 name: 'SQL',
-                level: 6,
+                level: 5,
             },
             {
                 name: 'R',
@@ -143,11 +144,11 @@ export const skills: SkillGroup[] = [
         skills: [
             {
                 name: 'Tableau',
-                level: 8,
+                level: 6,
             },
             {
                 name: 'Excel',
-                level: 6,
+                level: 5,
             },
             {
                 name: 'D3.js',
@@ -197,9 +198,9 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
     {
-        title: 'Gimmick or Gameplay: Addressing the GP Mario Beach Problem',
-        description: 'Using data analytics and polling metrics to vouch for the removal of GP Mario Beach from the pack.',
-        url: 'https://rocksaltwa.com/assets/GPMarioBrief.pdf',
+        title: 'ENIGMAEVAL: A Benchmark of Long Multimodal Reasoning Challenges',
+        description: 'Created and tested a benchmark for evaluating the problem-solving capibilities of state-of-the-art ML models.',
+        url: 'https://arxiv.org/abs/2502.08859',
         image: porfolioImage1,
     },
     //{
@@ -214,12 +215,12 @@ export const portfolioItems: PortfolioItem[] = [
         url: 'https://rocksaltwa.github.io/Evolution-of-Multi-Platform-Games/',
         image: porfolioImage3,
     },
-    {
-        title: 'CTGP Mid 2023 Poll Visualization',
-        description: 'Poll results from the midterm MKW season visualized for future analysis',
-        url: 'https://rocksaltwa.github.io/CTGP_Mid2023_Results/',
-        image: porfolioImage4,
-    },
+    //{
+    //    title: 'CTGP Mid 2023 Poll Visualization',
+    //    description: 'Poll results from the midterm MKW season visualized for future analysis',
+    //    url: 'https://rocksaltwa.github.io/CTGP_Mid2023_Results/',
+    //    image: porfolioImage4,
+    //},
     //{
     //    title: 'Project title 5',
     //    description: 'Give a short description of your project here.',
@@ -250,12 +251,12 @@ export const portfolioItems: PortfolioItem[] = [
     //    url: 'https://timbaker.me',
     //    image: porfolioImage9,
     //},
-    {
-        title: 'Esport Earnings: Are All Games Created Equal?',
-        description: 'A visualization displaying the earnings of Esports players all around the world.',
-        url: 'https://rocksaltwa.github.io/A3_Esports.io/',
-        image: porfolioImage10,
-    },
+    //{
+    //    title: 'Esport Earnings: Are All Games Created Equal?',
+    //    description: 'A visualization displaying the earnings of Esports players all around the world.',
+    //    url: 'https://rocksaltwa.github.io/A3_Esports.io/',
+    //    image: porfolioImage10,
+    //},
     //{
     //    title: 'Project title 11',
     //    description: 'Give a short description of your project here.',
@@ -286,11 +287,20 @@ export const experience: TimelineItem[] = [
     {
         date: 'May 2024 - Present',
         location: 'Scale AI',
-        title: 'GenAI Applied Mathematics Queue Manager',
+        title: 'GenAI Applied Mathematics Team Lead',
         content: (
-            <p>
-                Queue Managing involves overseeing multiple project data pipelines, consisting of thousands of contractors submitting their complex mathematical problems to a client in multimillion dollar contracts. 
-            </p>
+            <>
+                <p>
+                    Led the GenAI Applied Math program delivering enterprise-grade datasets under multi-million-dollar engagements.
+                </p>
+                <ul>
+                    <li>Owned end-to-end queue management across concurrent data pipelines serving thousands of contributors while meeting aggressive SLAs.</li>
+                    <li>Defined task specs, scoring rubrics, and QA workflows for complex math (algebra → calculus → probability/stats), ensuring rigor and consistency.</li>
+                    <li>Built lightweight reporting to monitor throughput and quality; proactively unblocked pipeline issues and optimized staffing/priority.</li>
+                    <li>Authored SOPs and ran live trainings/webinars to align global teams and lift first-pass acceptance.</li>
+                    <li>Partnered with client stakeholders on edge cases and change requests; documented decisions and playbooks to reduce rework.</li>
+                </ul>
+            </>
         ),
     },
     {
@@ -298,39 +308,35 @@ export const experience: TimelineItem[] = [
         location: 'Remotasks / Scale AI',
         title: 'Applied Mathematics Consultant',
         content: (
-            <p>
-                Creating high quality mathematical questions for data labeling purposes. 
-            </p>
+            <>
+                <p>
+                    Crafted high-quality mathematics datasets for model training and evaluation.
+                </p>
+                <ul>
+                    <li>Wrote original, multi-step problems with fully worked solutions across calculus, linear algebra, probability, and discrete math.</li>
+                    <li>Balanced difficulty and topic coverage; tagged metadata and validated correctness through self-checks and peer review.</li>
+                    <li>Refined prompts and rubrics to remove ambiguity, improving clarity, solvability, and pedagogical value.</li>
+                </ul>
+            </>
         ),
     },
     {
         date: 'August 2023 - December 2023',
         location: 'Hanson Consulting Group / Microsoft',
-        title: 'Gaming Data Analyst',
+        title: 'Data Analyst',
         content: (
-            <p>
-                As a Gaming Data Analyst at Hanson Consulting Group, I specialize in dissecting complex datasets to uncover actionable insights within the PC and console gaming industry. My role encompasses a deep dive into gaming trends and player behaviors, utilizing advanced data analysis techniques to inform strategic decision-making. This dynamic position combines rigorous data management with practical gameplay analysis, positioning me as a key contributor to shaping business intelligence and market strategy for our clients.
-            </p>
-        ),
-    },
-    {
-        date: 'November 2022 - August 2023',
-        location: 'CTGP Revolution',
-        title: 'Administrator of Analytics and Competitive Play',
-        content: (
-            <p>
-                I moderate and organize events not only within the competitive community, but the greater community of over 10,000 monthly active players. Much of this involves feedback and polling from the scale of individuals to the whole community at large, and then pitching proposed changes to the CEO directly. I developed models and heuristics to help more analytically decide removal criteria for software. I also serve as a liaison between two diametrically opposed sections of the community, casual and competititve players. I have to settle significant disagreements both small and large, ranging from a frustrated player to threats of DMCA.
-            </p>
-        ),
-    },
-    {
-        date: 'December 2020 - November 2022',
-        location: 'CTGP Revolution',
-        title: 'QA + Approval Analyst',
-        content: (
-            <p>
-                I evaluated and helped provide critical feedback for developing software seeking inclusion in the game. Through bugtesting and playtesting, I managed to significantly assist in the creation of 7 tracks to the point of being a named contributor, with hundreds of others also receiving various feedback over my 2 years volunteering here.
-            </p>
+            <>
+                <p>
+                    Supported Xbox’s Business Intelligence team with game and platform analytics used in weekly business reviews and go-to-market decisions.
+                </p>
+                <ul>
+                    <li>Built and maintained Power BI dashboards tracking acquisition, engagement, and monetization (DAU/MAU, retention cohorts, session length, conversion, attach/upsell).</li>
+                    <li>Owned “game health” readouts for select first- and third-party titles, translating telemetry into clear insights and next-step recommendations for PMs and marketing.</li>
+                    <li>Analyzed player funnels across Xbox/PC, diagnosing changes driven by title updates, features, and promotions; highlighted churn and reactivation drivers.</li>
+                    <li>Partnered with data engineering and product to standardize metric definitions and QA data quality, reducing reporting inconsistencies across titles.</li>
+                    <li>Delivered ad-hoc deep dives on Game Pass and Store merchandising experiments, informing prioritization of content placement and lifecycle campaigns.</li>
+                </ul>
+            </>
         ),
     },
 ];
@@ -342,9 +348,9 @@ export const testimonial: TestimonialSection = {
     imageSrc: testimonialImage,
     testimonials: [
         {
-            name: 'Nathan Haulman',
-            text: 'Jack\'s impact within CTGP cannot be understated. His exemplary communication and problem solving has lead to a marked improvement in public relations between the pack\'s administration and its playerbase. Furthermore, his experience in data collection and analysis has guided CTGP to make business decisions that best tailor the needs of its playerbase.',
-            image: 'https://cdn.discordapp.com/attachments/719758392142463007/1138670628690460712/Nate.png',
+            name: 'James Palano - Harvard MBA - Strategic Project Leader at Scale AI',
+            text: 'Jack Doughty is a talented mathematician, a quick learner of other skills, and a diligent, hard worker. Don\'t pass up an opportunity to have him on your team!',
+            image: ref1pic,
         },
         //{
         //    name: 'Jane Doe',
