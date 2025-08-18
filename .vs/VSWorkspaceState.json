@@ -4,7 +4,11 @@
     "\\public",
     "\\public\\assets",
     "\\src",
-    "\\src\\data"
+    "\\src\\components",
+    "\\src\\components\\Icon",
+    "\\src\\components\\Layout",
+    "\\src\\data",
+    "\\src\\hooks"
   ],
   "PreviewInSolutionExplorer": false
 }
