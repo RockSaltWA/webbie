@@ -11,6 +11,7 @@
 // import InstagramIcon from '../components/Icon/InstagramIcon';
 import DiscordIcon from '../components/Icon/DiscordIcon';
 import GithubIcon from '../components/Icon/GithubIcon';
+import heroImage from '../images/SGLC.png';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 // import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
@@ -28,7 +29,6 @@ import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 //import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import ref1pic from '../images/James.jpg';
-import heroImage from '../images/SGLC.png';
 import {
     About,
     ContactSection,
