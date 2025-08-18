@@ -1,14 +1,16 @@
 {
   "ExpandedNodes": [
     "",
-    "\\public",
-    "\\public\\assets",
     "\\src",
     "\\src\\components",
     "\\src\\components\\Icon",
     "\\src\\components\\Layout",
     "\\src\\data",
-    "\\src\\hooks"
+    "\\src\\hooks",
+    "\\src\\images",
+    "\\src\\images\\portfolio",
+    "\\src\\images\\refs"
   ],
+  "SelectedNode": "\\src\\images\\refs",
   "PreviewInSolutionExplorer": false
 }
