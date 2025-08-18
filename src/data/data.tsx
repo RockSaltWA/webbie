@@ -15,7 +15,6 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 // import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
 import testimonialImage from '../images/BanishedKeep.png';
-import ref1pic from '../images/James.jpg';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 //import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
@@ -26,7 +25,7 @@ import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 //import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 // import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-//import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import heroImage from '../images/SGLC.png';
 import {
@@ -350,7 +349,7 @@ export const testimonial: TestimonialSection = {
         {
             name: 'James Palano - Harvard MBA - Strategic Project Leader at Scale AI',
             text: 'Jack Doughty is a talented mathematician, a quick learner of other skills, and a diligent, hard worker. Don\'t pass up an opportunity to have him on your team!',
-            image: ref1pic,
+            image: porfolioImage11,
         },
         //{
         //    name: 'Jane Doe',
