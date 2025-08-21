@@ -77,8 +77,7 @@ export const heroData: Hero = {
                 I'm a Seattle based <strong className="text-stone-100">Data Scientist and Analyst</strong>, and graduated from <strong className="text-stone-100">University of Washington</strong> with a Master's Degree in Applied and Computational Mathematics!
             </p>
             <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-                In my free time, you can catch me playing <strong className="text-stone-100">competitive</strong> video games, organizing and <strong className="text-stone-100">streamhosting</strong> esports events,
-                creating polls and data sets as a <strong className="text-stone-100">community manager</strong>, or cooking up some crazy food and drink! Watching some football wouldn't go amiss either :D
+                In my free time, you can catch me playing <strong className="text-stone-100">competitive</strong> video games and creating data sets as a <strong className="text-stone-100">community manager</strong>! Watching some English football wouldn't go amiss either :D
             </p>
         </>
     ),
