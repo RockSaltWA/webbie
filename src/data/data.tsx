@@ -25,7 +25,7 @@ import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
 import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
 //import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
 // import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+// import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import heroImage from '../images/SGLC.png';
 import {
@@ -347,9 +347,9 @@ export const testimonial: TestimonialSection = {
     imageSrc: testimonialImage,
     testimonials: [
         {
-            name: 'James Palano - Harvard MBA - Strategic Project Leader at Scale AI',
+            name: 'James Palano, Harvard MBA',
             text: 'Jack Doughty is a talented mathematician, a quick learner of other skills, and a diligent, hard worker. Don\'t pass up an opportunity to have him on your team!',
-            image: porfolioImage11,
+            image: porfolioImage1,
         },
         //{
         //    name: 'Jane Doe',
