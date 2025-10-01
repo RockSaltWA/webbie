@@ -295,7 +295,7 @@ export const experience: TimelineItem[] = [
                     <li>Owned end-to-end queue management across concurrent data pipelines serving thousands of contributors while meeting aggressive SLAs.</li>
                     <li>Worked directly with Fortune 500 companies to design and facilitate the production of datasets.</li>
                     <li>Defined task specs, scoring rubrics, and QA workflows for complex math (algebra → calculus → probability/stats), ensuring rigor and consistency.</li>
-                    <li>Led the creation of ENIGMAEVAL, an innovative benchmark for evaluating long multimodal reasoning in state-of-the-art ML models, published on arXiv (hosted by Cornell University).</li>
+                    <li>Helped lead ENIGMAEVAL, an innovative benchmark for evaluating long multimodal reasoning in state-of-the-art ML models, published on arXiv (hosted by Cornell University).</li>
                     <li>Built lightweight reporting to monitor throughput and quality; proactively unblocked pipeline issues and optimized staffing/priority.</li>
                     <li>Authored SOPs and ran live trainings/webinars to align global teams and lift first-pass acceptance.</li>
                     <li>Partnered with client stakeholders on edge cases and change requests; documented decisions and playbooks to reduce rework.</li>
