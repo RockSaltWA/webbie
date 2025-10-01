@@ -45,8 +45,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-    title: 'Jack Doughty\'s personal website',
-    description: "Looking for work!",
+    title: 'Jack Doughty | Data-Driven Tech Leader',
+    description: 'Master’s in Applied Math | Ex-Microsoft Data Analyst & Scale AI Team Lead | Driving AI and tech programs with precision and impact. Ready to solve your toughest challenges.',
 };
 
 /**
@@ -74,23 +74,23 @@ export const heroData: Hero = {
     description: (
         <>
             <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-                I'm a Seattle based <strong className="text-stone-100">GenAI Team Lead</strong>, and graduated from <strong className="text-stone-100">University of Washington</strong> with a Master's Degree in Applied and Computational Mathematics!
+                I’m a Seattle-based <strong className="text-stone-100">Technical Program Manager</strong> and former <strong className="text-stone-100">Scale AI GenAI Team Lead</strong> with a Master’s in Applied Math from <strong className="text-stone-100">University of Washington</strong>. I turn complex data and team challenges into streamlined AI solutions and shipped products.
             </p>
             <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-                In my free time, you can catch me playing <strong className="text-stone-100">competitive</strong> video games and creating data sets as a <strong className="text-stone-100">community manager</strong>! Watching some English football wouldn't go amiss either :D
+                From leading high-stakes ML dataset pipelines to driving Xbox analytics at Microsoft, I thrive on delivering impact. Let’s connect to tackle your next big project!
             </p>
         </>
     ),
     actions: [
         {
             href: '/assets/resume.pdf',
-            text: 'Resume',
+            text: 'Download Resume',
             primary: true,
             Icon: ArrowDownTrayIcon,
         },
         {
             href: `#${SectionId.Contact}`,
-            text: 'Contact',
+            text: 'Let’s Connect',
             primary: false,
         },
     ],
@@ -101,14 +101,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
     profileImageSrc: profilepic,
-    description: `Applied-math brain, product-ops heart: I herd data, deadlines, and humans into clean pipelines and shipped outcomes. Former Xbox BI and Scale AI team lead, now hunting for problems big enough to be fun.`,
+    description: `I’m a data-driven leader with a Master’s in Applied Math, blending technical precision with operational excellence. As a former Scale AI Team Lead and Microsoft Xbox Data Analyst, I’ve delivered high-impact AI datasets and business insights under tight deadlines. Now, I’m seeking Technical Program Manager or ML Delivery roles to solve complex challenges and drive innovation.`,
     aboutItems: [
         {label: 'Location', text: 'Seattle, WA', Icon: MapIcon},
         {label: 'Age', text: '24', Icon: CalendarIcon},
         {label: 'Nationality', text: 'Pacific Northwestern :)', Icon: FlagIcon},
-        {label: 'Interests', text: 'Data Science + Analytics', Icon: SparklesIcon},
-        {label: 'Study', text: 'University of Washington, M.S.', Icon: AcademicCapIcon},
-        {label: 'Work', text: 'Scale AI | Team Lead', Icon: BuildingOffice2Icon},
+        {label: 'Interests', text: 'AI Program Management, Data Analytics, Data Science', Icon: SparklesIcon},
+        {label: 'Study', text: 'University of Washington, M.S. Applied & Computational Maths', Icon: AcademicCapIcon},
+        {label: 'Work', text: 'Scale AI | GenAI Team Lead', Icon: BuildingOffice2Icon},
     ],
 };
 
@@ -289,11 +289,13 @@ export const experience: TimelineItem[] = [
         content: (
             <>
                 <p>
-                    Led the GenAI Applied Math program delivering enterprise-grade datasets under multi-million-dollar engagements.
+                    Provided leadership on $10M+ AI projects, delivering enterprise-grade datasets and pioneering benchmarks under high-stakes engagements.
                 </p>
                 <ul>
                     <li>Owned end-to-end queue management across concurrent data pipelines serving thousands of contributors while meeting aggressive SLAs.</li>
+                    <li>Worked directly with Fortune 500 companies to design and facilitate the production of datasets.</li>
                     <li>Defined task specs, scoring rubrics, and QA workflows for complex math (algebra → calculus → probability/stats), ensuring rigor and consistency.</li>
+                    <li>Led the creation of ENIGMAEVAL, an innovative benchmark for evaluating long multimodal reasoning in state-of-the-art ML models, published on arXiv (hosted by Cornell University).</li>
                     <li>Built lightweight reporting to monitor throughput and quality; proactively unblocked pipeline issues and optimized staffing/priority.</li>
                     <li>Authored SOPs and ran live trainings/webinars to align global teams and lift first-pass acceptance.</li>
                     <li>Partnered with client stakeholders on edge cases and change requests; documented decisions and playbooks to reduce rework.</li>
@@ -368,8 +370,8 @@ export const testimonial: TestimonialSection = {
  */
 
 export const contact: ContactSection = {
-    headerText: 'Get in touch!',
-    description: 'I would love to answer any potential questions you have for me, feel free to reach out!',
+    headerText: 'Let’s Build Something Great Together',
+    description: 'I’m excited to discuss how my expertise in AI program management and data analytics can drive your next project. Reach out to explore opportunities or share ideas!',
     items: [
         {
             type: ContactType.Email,
