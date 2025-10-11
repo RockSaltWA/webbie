@@ -285,7 +285,7 @@ export const experience: TimelineItem[] = [
     {
         date: 'May 2024 - Present',
         location: 'Scale AI',
-        title: 'GenAI Applied Mathematics Team Lead',
+        title: 'GenAI Queue Manager - Applied Mathematics',
         content: (
             <>
                 <p>
