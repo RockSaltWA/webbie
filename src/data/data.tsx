@@ -74,7 +74,7 @@ export const heroData: Hero = {
     description: (
         <>
             <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-                I’m a Seattle-based <strong className="text-stone-100">Technical Program Manager</strong> and former <strong className="text-stone-100">Scale AI GenAI Team Lead</strong> with a Master’s in Applied Math from <strong className="text-stone-100">University of Washington</strong>. I turn complex data and team challenges into streamlined AI solutions and shipped products.
+                I’m a Seattle-based aspiring <strong className="text-stone-100">Technical Program Manager</strong> and former <strong className="text-stone-100">Scale AI GenAI Queue Manager</strong> with a Master’s in Applied Math from <strong className="text-stone-100">University of Washington</strong>. I turn complex data and team challenges into streamlined AI solutions and shipped products.
             </p>
             <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
                 From leading high-stakes ML dataset pipelines to driving Xbox analytics at Microsoft, I thrive on delivering impact. Let’s connect to tackle your next big project!
@@ -268,13 +268,13 @@ export const portfolioItems: PortfolioItem[] = [
  */
 export const education: TimelineItem[] = [
     {
-        date: 'August 2023',
+        date: '2023',
         location: 'University of Washington',
         title: 'Masters in Applied and Computational Mathematics',
         content: <p>Focused particularly on data science and analytics, along with data visualization</p>,
     },
     {
-        date: 'August 2022',
+        date: '2022',
         location: 'College of Wooster',
         title: 'Applied Mathematics',
         content: <p>Picked up the fundamentals of machine learning and wrote a thesis on Optimizing Paths in a Weighted Plane</p>,
@@ -283,7 +283,7 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
     {
-        date: 'May 2024 - Present',
+        date: '2024 - 2025',
         location: 'Scale AI',
         title: 'GenAI Queue Manager - Applied Mathematics',
         content: (
@@ -304,7 +304,7 @@ export const experience: TimelineItem[] = [
         ),
     },
     {
-        date: 'Jan 2024 - April 2024',
+        date: '2024 - 2024',
         location: 'Remotasks / Scale AI',
         title: 'Applied Mathematics Consultant',
         content: (
@@ -321,7 +321,7 @@ export const experience: TimelineItem[] = [
         ),
     },
     {
-        date: 'August 2023 - December 2023',
+        date: '2023 - 2024',
         location: 'Hanson Consulting Group / Microsoft',
         title: 'Data Analyst',
         content: (
