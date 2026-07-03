@@ -74,16 +74,6 @@ export interface SkillGroup {
 }
 
 /**
- * Portfolio section
- */
-export interface PortfolioItem {
-  title: string;
-  description: string;
-  url: string;
-  image: string | StaticImageData;
-}
-
-/**
  * Resume section
  */
 export interface TimelineItem {
@@ -102,7 +92,7 @@ export interface TestimonialSection {
 }
 
 export interface Testimonial {
-  image?: string;
+  image?: string | StaticImageData;
   name: string;
   text: string;
 }

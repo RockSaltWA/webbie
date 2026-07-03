@@ -1,6 +1,5 @@
 ﻿import {
     AcademicCapIcon,
-    ArrowDownTrayIcon,
     BuildingOffice2Icon,
     CalendarIcon,
     FlagIcon,
@@ -14,27 +13,15 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 // import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
-import testimonialImage from '../images/BanishedKeep.png';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-//import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-// import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-//import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-//import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-//import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-// import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-// import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
+import backgroundImage from '../images/header-background.webp';
+import jamesImage from '../images/James.jpg';
 import profilepic from '../images/profilepic.jpg';
-import heroImage from '../images/SGLC.png';
 import {
     About,
     ContactSection,
     ContactType,
     Hero,
     HomepageMeta,
-    PortfolioItem,
     SkillGroup,
     Social,
     TestimonialSection,
@@ -45,8 +32,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-    title: 'Jack Doughty | Data-Driven Tech Leader',
-    description: 'Master’s in Applied Math | Ex-Microsoft Data Analyst & Scale AI Team Lead | Driving AI and tech programs with precision and impact. Ready to solve your toughest challenges.',
+    title: 'Jack Doughty | Data & AI Delivery Lead',
+    description: 'Strategic Account Lead at micro1 with a Master’s in Applied Math from the University of Washington. I lead human-data, benchmark, and model-evaluation programs for frontier AI labs. Former Scale AI queue manager and Microsoft data analyst, targeting Technical Program Manager and ML-delivery roles.',
 };
 
 /**
@@ -56,7 +43,6 @@ export const SectionId = {
     Hero: 'hero',
     About: 'about',
     Contact: 'contact',
-    Portfolio: 'portfolio',
     Resume: 'resume',
     Skills: 'skills',
     Stats: 'stats',
@@ -69,29 +55,23 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  * Hero section
  */
 export const heroData: Hero = {
-    imageSrc: heroImage,
+    imageSrc: backgroundImage,
     name: `I'm Jack Doughty.`,
     description: (
         <>
             <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-                I’m a Seattle-based aspiring <strong className="text-stone-100">Technical Program Manager</strong> and former <strong className="text-stone-100">Scale AI GenAI Queue Manager</strong> with a Master’s in Applied Math from <strong className="text-stone-100">University of Washington</strong>. I turn complex data and team challenges into streamlined AI solutions and shipped products.
+                I’m a Seattle-based <strong className="text-stone-100">Strategic Account Lead at micro1</strong>, where I own frontier AI lab accounts and lead the human-data and model-evaluation programs behind them. I hold a Master’s in Applied Math from the <strong className="text-stone-100">University of Washington</strong>, and I like turning messy research goals into datasets and deliveries that actually ship.
             </p>
             <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-                From leading high-stakes ML dataset pipelines to driving Xbox analytics at Microsoft, I thrive on delivering impact. Let’s connect to tackle your next big project!
+                Before micro1 I ran GenAI data queues at Scale AI and drove product analytics at Microsoft. I’m always up for a strong <strong className="text-stone-100">Technical Program Manager</strong> or ML-delivery challenge, so let’s connect.
             </p>
         </>
     ),
     actions: [
         {
-            href: '/assets/resume.pdf',
-            text: 'Download Resume',
-            primary: true,
-            Icon: ArrowDownTrayIcon,
-        },
-        {
             href: `#${SectionId.Contact}`,
             text: 'Let’s Connect',
-            primary: false,
+            primary: true,
         },
     ],
 };
@@ -101,14 +81,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
     profileImageSrc: profilepic,
-    description: `I’m a data-driven leader with a Master’s in Applied Math, blending technical precision with operational excellence. As a former Scale AI Team Lead and Microsoft Xbox Data Analyst, I’ve delivered high-impact AI datasets and business insights under tight deadlines. Now, I’m seeking Technical Program Manager or ML Delivery roles to solve complex challenges and drive innovation.`,
+    description: `I’m an applied mathematician turned data and delivery lead. At micro1 I’ve gone from Human Data Manager to Strategic Account Lead in under a year, owning frontier AI lab accounts and the benchmark, evaluation, and audit work that keeps them shipping. Before that I managed GenAI data queues at Scale AI and built product analytics at Microsoft. I’m targeting Technical Program Manager and ML-delivery roles where rigor and speed both matter.`,
     aboutItems: [
         {label: 'Location', text: 'Seattle, WA', Icon: MapIcon},
-        {label: 'Age', text: '24', Icon: CalendarIcon},
+        {label: 'Age', text: '25', Icon: CalendarIcon},
         {label: 'Nationality', text: 'Pacific Northwestern :)', Icon: FlagIcon},
         {label: 'Interests', text: 'AI Program Management, Data Analytics, Data Science', Icon: SparklesIcon},
         {label: 'Study', text: 'University of Washington, M.S. Applied & Computational Maths', Icon: AcademicCapIcon},
-        {label: 'Work', text: 'Scale AI | GenAI Team Lead', Icon: BuildingOffice2Icon},
+        {label: 'Work', text: 'micro1 | Strategic Account Lead', Icon: BuildingOffice2Icon},
     ],
 };
 
@@ -117,12 +97,29 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
     {
-        name: 'Skills',
+        name: 'AI & Data Delivery',
         skills: [
             {
-                name: 'Mathematics',
-                level: 9,
+                name: 'LLM & Model Evaluation',
+                level: 8,
             },
+            {
+                name: 'Benchmark & Dataset Design',
+                level: 8,
+            },
+            {
+                name: 'Human-Data Pipelines & QA',
+                level: 8,
+            },
+            {
+                name: 'Machine Learning Foundations',
+                level: 6,
+            },
+        ],
+    },
+    {
+        name: 'Programming & Data',
+        skills: [
             {
                 name: 'Python',
                 level: 5,
@@ -138,8 +135,12 @@ export const skills: SkillGroup[] = [
         ],
     },
     {
-        name: 'Data Visualization Software',
+        name: 'Data Visualization',
         skills: [
+            {
+                name: 'Power BI',
+                level: 6,
+            },
             {
                 name: 'Tableau',
                 level: 6,
@@ -148,11 +149,6 @@ export const skills: SkillGroup[] = [
                 name: 'Excel',
                 level: 5,
             },
-            {
-                name: 'D3.js',
-                level: 3,
-            },
-
         ],
     },
     {
@@ -192,78 +188,6 @@ export const skills: SkillGroup[] = [
 ];
 
 /**
- * Portfolio section
- */
-export const portfolioItems: PortfolioItem[] = [
-    {
-        title: 'ENIGMAEVAL: A Benchmark of Long Multimodal Reasoning Challenges',
-        description: 'Created and tested a benchmark for evaluating the problem-solving capibilities of state-of-the-art ML models.',
-        url: 'https://arxiv.org/abs/2502.08859',
-        image: porfolioImage1,
-    },
-    //{
-    //    title: 'Project title 2',
-    //    description: 'Give a short description of your project here.',
-    //    url: 'https://timbaker.me',
-    //    image: porfolioImage2,
-    //},
-    {
-        title: 'Evolution of Multi-Platform Games',
-        description: 'Visualization showcasing the proliferation of Multi-Platform games and their incredible success.',
-        url: 'https://rocksaltwa.github.io/Evolution-of-Multi-Platform-Games/',
-        image: porfolioImage3,
-    },
-    //{
-    //    title: 'CTGP Mid 2023 Poll Visualization',
-    //    description: 'Poll results from the midterm MKW season visualized for future analysis',
-    //    url: 'https://rocksaltwa.github.io/CTGP_Mid2023_Results/',
-    //    image: porfolioImage4,
-    //},
-    //{
-    //    title: 'Project title 5',
-    //    description: 'Give a short description of your project here.',
-    //    url: 'https://timbaker.me',
-    //    image: porfolioImage5,
-    //},
-    {
-        title: 'Binomial Distribution Within Gameplay Behavior',
-        description: 'Recognizing the probability and distribution of track picks and their impact on behavior in-game.',
-        url: 'https://rocksaltwa.com/assets/BinomialDistribution.pdf',
-        image: porfolioImage6,
-    },
-    //{
-    //    title: 'Project title 7',
-    //    description: 'Give a short description of your project here.',
-    //    url: 'https://timbaker.me',
-    //    image: porfolioImage7,
-    //},
-    {
-        title: 'Optimizing Paths in a Weighted Plane',
-        description: 'My undergraduate thesis where I analyze methodology to apply optimized weighted plates to optimized gaming strategy.',
-        url: 'https://rocksaltwa.com/assets/Capstone_Project.pdf',
-        image: porfolioImage8,
-    },
-    //{
-    //    title: 'Project title 9',
-    //    description: 'Give a short description of your project here.',
-    //    url: 'https://timbaker.me',
-    //    image: porfolioImage9,
-    //},
-    //{
-    //    title: 'Esport Earnings: Are All Games Created Equal?',
-    //    description: 'A visualization displaying the earnings of Esports players all around the world.',
-    //    url: 'https://rocksaltwa.github.io/A3_Esports.io/',
-    //    image: porfolioImage10,
-    //},
-    //{
-    //    title: 'Project title 11',
-    //    description: 'Give a short description of your project here.',
-    //    url: 'https://timbaker.me',
-    //    image: porfolioImage11,
-    //},
-];
-
-/**
  * Resume section -- TODO: Standardize resume contact format or offer MDX
  */
 export const education: TimelineItem[] = [
@@ -282,6 +206,25 @@ export const education: TimelineItem[] = [
 ];
 
 export const experience: TimelineItem[] = [
+    {
+        date: 'Nov 2025 - Present',
+        location: 'micro1',
+        title: 'Strategic Account Lead',
+        content: (
+            <>
+                <p>
+                    Joined as a Human Data Manager and earned four promotions in eight months, moving through Human Data Lead, Associate Strategic Project Lead, and Strategic Project Lead to Strategic Account Lead.
+                </p>
+                <ul>
+                    <li>Own strategic accounts end to end, from scoping and pricing through delivery, serving as the main point of contact for frontier AI labs buying human data and evaluation work.</li>
+                    <li>Lead multi-workstream delivery across benchmark builds, model evaluations, and data audits, holding quality, timelines, and margins on track at the same time.</li>
+                    <li>Built quality-control harnesses and audit pipelines that catch scoring and labeling defects before they reach the client, protecting delivery accuracy on high-stakes datasets.</li>
+                    <li>Stood up the queue, staffing, and QA playbooks the human-data teams still run on, turning ad hoc processes into repeatable operations as headcount scaled.</li>
+                    <li>Partner with client stakeholders on rubrics, edge cases, and roadmap, translating open-ended research goals into concrete task specs and acceptance criteria.</li>
+                </ul>
+            </>
+        ),
+    },
     {
         date: '2024 - 2025',
         location: 'Scale AI',
@@ -327,14 +270,14 @@ export const experience: TimelineItem[] = [
         content: (
             <>
                 <p>
-                    Supported Xbox’s Business Intelligence team with game and platform analytics used in weekly business reviews and go-to-market decisions.
+                    Supported a Microsoft Business Intelligence team with consumer platform analytics used in weekly business reviews and go-to-market decisions.
                 </p>
                 <ul>
-                    <li>Built and maintained Power BI dashboards tracking acquisition, engagement, and monetization (DAU/MAU, retention cohorts, session length, conversion, attach/upsell).</li>
-                    <li>Owned “game health” readouts for select first- and third-party titles, translating telemetry into clear insights and next-step recommendations for PMs and marketing.</li>
-                    <li>Analyzed player funnels across Xbox/PC, diagnosing changes driven by title updates, features, and promotions; highlighted churn and reactivation drivers.</li>
-                    <li>Partnered with data engineering and product to standardize metric definitions and QA data quality, reducing reporting inconsistencies across titles.</li>
-                    <li>Delivered ad-hoc deep dives on Game Pass and Store merchandising experiments, informing prioritization of content placement and lifecycle campaigns.</li>
+                    <li>Built and maintained Power BI dashboards tracking acquisition, engagement, and monetization (DAU/MAU, retention cohorts, session length, conversion, upsell).</li>
+                    <li>Owned product health readouts across the portfolio, turning telemetry into clear insights and next-step recommendations for PMs and marketing.</li>
+                    <li>Analyzed user funnels across platforms, diagnosing shifts driven by product updates, features, and promotions, and flagged churn and reactivation drivers.</li>
+                    <li>Partnered with data engineering and product to standardize metric definitions and QA data quality, cutting reporting inconsistencies across the portfolio.</li>
+                    <li>Delivered ad hoc deep dives on merchandising and lifecycle experiments, informing prioritization of content placement and campaigns.</li>
                 </ul>
             </>
         ),
@@ -345,12 +288,12 @@ export const experience: TimelineItem[] = [
  * Testimonial section
  */
 export const testimonial: TestimonialSection = {
-    imageSrc: testimonialImage,
+    imageSrc: backgroundImage,
     testimonials: [
         {
             name: 'James Palano, Harvard MBA',
             text: 'Jack Doughty is a talented mathematician, a quick learner of other skills, and a diligent, hard worker. Don\'t pass up an opportunity to have him on your team!',
-            image: porfolioImage1,
+            image: jamesImage,
         },
         //{
         //    name: 'Jane Doe',
