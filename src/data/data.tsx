@@ -8,13 +8,11 @@
 } from '@heroicons/react/24/outline';
 
 // import InstagramIcon from '../components/Icon/InstagramIcon';
-import DiscordIcon from '../components/Icon/DiscordIcon';
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 // import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
 import backgroundImage from '../images/header-background.webp';
-import jamesImage from '../images/James.jpg';
 import profilepic from '../images/profilepic.jpg';
 import {
     About,
@@ -24,7 +22,6 @@ import {
     HomepageMeta,
     SkillGroup,
     Social,
-    TestimonialSection,
     TimelineItem,
 } from './dataDef';
 
@@ -46,7 +43,6 @@ export const SectionId = {
     Resume: 'resume',
     Skills: 'skills',
     Stats: 'stats',
-    Testimonials: 'testimonials',
 } as const;
 
 export type SectionId = typeof SectionId[keyof typeof SectionId];
@@ -285,30 +281,6 @@ export const experience: TimelineItem[] = [
 ];
 
 /**
- * Testimonial section
- */
-export const testimonial: TestimonialSection = {
-    imageSrc: backgroundImage,
-    testimonials: [
-        {
-            name: 'James Palano, Harvard MBA',
-            text: 'Jack Doughty is a talented mathematician, a quick learner of other skills, and a diligent, hard worker. Don\'t pass up an opportunity to have him on your team!',
-            image: jamesImage,
-        },
-        //{
-        //    name: 'Jane Doe',
-        //    text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-        //    image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
-        //},
-        //{
-        //    name: 'Someone else',
-        //    text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-        //    image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
-        //},
-    ],
-};
-
-/**
  * Contact section
  */
 
@@ -327,11 +299,6 @@ export const contact: ContactSection = {
             href: 'https://www.google.com/maps/place/Seattle,+WA/@47.6130386,-122.4979445,12z/data=!3m1!4b1!4m6!3m5!1s0x5490102c93e83355:0x102565466944d59a!8m2!3d47.6062095!4d-122.3320708!16zL20vMGQ5anI?entry=ttu',
         },
         {
-            type: ContactType.Discord,
-            text: 'rocksaltwa',
-            href: 'https://www.discordapp.com/users/263514562064678914',
-        },
-        {
             type: ContactType.Github,
             text: 'rocksaltwa',
             href: 'https://github.com/RockSaltWA',
@@ -347,6 +314,5 @@ export const socialLinks: Social[] = [
     //{label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
     {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://www.linkedin.com/in/jack-doughty-894137266/'},
     //{label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/tbakerx/'},
-    {label: 'Discord', Icon: DiscordIcon, href: 'https://www.discordapp.com/users/263514562064678914'},
     //{label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/TimBakerx'},
 ];
