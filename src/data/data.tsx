@@ -29,7 +29,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
     title: 'Jack Doughty | Data & AI Delivery Lead',
-    description: 'Strategic Account Lead at micro1 with a Master’s in Applied Math from the University of Washington. I lead human-data, benchmark, and model-evaluation programs for frontier AI labs. Former Scale AI queue manager and Microsoft data analyst, targeting Technical Program Manager and ML-delivery roles.',
+    description: 'Strategic Account Lead at micro1 with a Master’s in Applied Math from the University of Washington. I lead human-data, benchmark, and model-evaluation programs for enterprise AI clients. Former Scale AI queue manager and Microsoft data analyst, targeting Technical Program Manager and ML-delivery roles.',
 };
 
 /**
@@ -54,7 +54,7 @@ export const heroData: Hero = {
     description: (
         <>
             <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-                I’m a Seattle-based <strong className="text-stone-100">Strategic Account Lead at micro1</strong>, where I own frontier AI lab accounts and lead the human-data and model-evaluation programs behind them. I hold a Master’s in Applied Math from the <strong className="text-stone-100">University of Washington</strong>, and I like turning messy research goals into datasets and deliveries that actually ship.
+                I’m a Seattle-based <strong className="text-stone-100">Strategic Account Lead at micro1</strong>, where I own a strategic enterprise account and lead the human-data and model-evaluation programs behind it. I hold a Master’s in Applied Math from the <strong className="text-stone-100">University of Washington</strong>, and I like turning messy research goals into datasets and deliveries that actually ship.
             </p>
             <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
                 Before micro1 I ran GenAI data queues at Scale AI and drove product analytics at Microsoft. I’m always up for a strong <strong className="text-stone-100">Technical Program Manager</strong> or ML-delivery challenge, so let’s connect.
@@ -75,7 +75,7 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
     profileImageSrc: profilepic,
-    description: `I’m an applied mathematician turned data and delivery lead. At micro1 I’ve gone from Human Data Manager to Strategic Account Lead in under a year, owning frontier AI lab accounts and the benchmark, evaluation, and audit work that keeps them shipping. Before that I managed GenAI data queues at Scale AI and built product analytics at Microsoft. I’m targeting Technical Program Manager and ML-delivery roles where rigor and speed both matter.`,
+    description: `I’m an applied mathematician turned data and delivery lead. At micro1 I’ve gone from Human Data Manager to Strategic Account Lead in under a year, owning a strategic enterprise account and the benchmark, evaluation, and audit work that keeps it shipping. Before that I managed GenAI data queues at Scale AI and built product analytics at Microsoft. I’m targeting Technical Program Manager and ML-delivery roles where rigor and speed both matter.`,
     aboutItems: [
         {label: 'Location', text: 'Seattle, WA', Icon: MapIcon},
         {label: 'Age', text: '25', Icon: CalendarIcon},
@@ -115,7 +115,7 @@ export const experience: TimelineItem[] = [
                     Joined as a Human Data Manager and earned four promotions in eight months, moving through Human Data Lead, Associate Strategic Project Lead, and Strategic Project Lead to Strategic Account Lead.
                 </p>
                 <ul>
-                    <li>Own a book of strategic accounts as the primary point of contact for frontier AI labs buying human data and evaluation work, taking them from scoping and pricing through delivery, renewal, and ARR expansion.</li>
+                    <li>Own a strategic enterprise account end to end as its primary point of contact, driving the human-data and evaluation work from scoping and pricing through delivery, renewal, and ARR expansion.</li>
                     <li>Lead multi-workstream delivery across benchmark builds, model evaluations, and data audits, holding quality, timelines, and margins on track at the same time.</li>
                     <li>Built quality-control harnesses and audit pipelines that catch scoring and labeling defects before they reach the client, protecting delivery accuracy on high-stakes datasets.</li>
                     <li>Stood up the queue, staffing, and QA playbooks the human-data teams still run on, turning ad hoc processes into repeatable operations as headcount scaled.</li>
