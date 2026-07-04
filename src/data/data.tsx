@@ -115,7 +115,7 @@ export const experience: TimelineItem[] = [
                     Joined as a Human Data Manager and earned four promotions in eight months, moving through Human Data Lead, Associate Strategic Project Lead, and Strategic Project Lead to Strategic Account Lead.
                 </p>
                 <ul>
-                    <li>Own strategic accounts end to end, from scoping and pricing through delivery, serving as the main point of contact for frontier AI labs buying human data and evaluation work.</li>
+                    <li>Own a book of strategic accounts as the primary point of contact for frontier AI labs buying human data and evaluation work, taking them from scoping and pricing through delivery, renewal, and ARR expansion.</li>
                     <li>Lead multi-workstream delivery across benchmark builds, model evaluations, and data audits, holding quality, timelines, and margins on track at the same time.</li>
                     <li>Built quality-control harnesses and audit pipelines that catch scoring and labeling defects before they reach the client, protecting delivery accuracy on high-stakes datasets.</li>
                     <li>Stood up the queue, staffing, and QA playbooks the human-data teams still run on, turning ad hoc processes into repeatable operations as headcount scaled.</li>
@@ -131,33 +131,16 @@ export const experience: TimelineItem[] = [
         content: (
             <>
                 <p>
-                    Provided leadership on $10M+ AI projects, delivering enterprise-grade datasets and pioneering benchmarks under high-stakes engagements.
+                    Led delivery across enterprise engagements representing $10M+ in ARR, shipping production-grade datasets and pioneering benchmarks under high-stakes timelines.
                 </p>
                 <ul>
                     <li>Owned end-to-end queue management across concurrent data pipelines serving thousands of contributors while meeting aggressive SLAs.</li>
-                    <li>Worked directly with Fortune 500 companies to design and facilitate the production of datasets.</li>
+                    <li>Partnered directly with Fortune 500 clients to scope and produce custom datasets to spec.</li>
                     <li>Defined task specs, scoring rubrics, and QA workflows for complex math (algebra → calculus → probability/stats), ensuring rigor and consistency.</li>
                     <li>Helped lead ENIGMAEVAL, an innovative benchmark for evaluating long multimodal reasoning in state-of-the-art ML models, published on arXiv (hosted by Cornell University).</li>
-                    <li>Built lightweight reporting to monitor throughput and quality; proactively unblocked pipeline issues and optimized staffing/priority.</li>
-                    <li>Authored SOPs and ran live trainings/webinars to align global teams and lift first-pass acceptance.</li>
-                    <li>Partnered with client stakeholders on edge cases and change requests; documented decisions and playbooks to reduce rework.</li>
-                </ul>
-            </>
-        ),
-    },
-    {
-        date: '2024 - 2024',
-        location: 'Remotasks / Scale AI',
-        title: 'Applied Mathematics Consultant',
-        content: (
-            <>
-                <p>
-                    Crafted high-quality mathematics datasets for model training and evaluation.
-                </p>
-                <ul>
-                    <li>Wrote original, multi-step problems with fully worked solutions across calculus, linear algebra, probability, and discrete math.</li>
-                    <li>Balanced difficulty and topic coverage; tagged metadata and validated correctness through self-checks and peer review.</li>
-                    <li>Refined prompts and rubrics to remove ambiguity, improving clarity, solvability, and pedagogical value.</li>
+                    <li>Built lightweight reporting to monitor throughput and quality, and cleared pipeline bottlenecks while optimizing staffing and priority.</li>
+                    <li>Authored SOPs and ran live trainings and webinars to align global teams and lift first-pass acceptance.</li>
+                    <li>Partnered with client stakeholders on edge cases and change requests, documenting decisions and playbooks to cut rework.</li>
                 </ul>
             </>
         ),
