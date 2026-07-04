@@ -12,15 +12,14 @@ import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 // import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 // import TwitterIcon from '../components/Icon/TwitterIcon';
-import backgroundImage from '../images/header-background.webp';
 import profilepic from '../images/profilepic.jpg';
+import heroImage from '../images/SGLC.png';
 import {
     About,
     ContactSection,
     ContactType,
     Hero,
     HomepageMeta,
-    SkillGroup,
     Social,
     TimelineItem,
 } from './dataDef';
@@ -41,7 +40,6 @@ export const SectionId = {
     About: 'about',
     Contact: 'contact',
     Resume: 'resume',
-    Skills: 'skills',
     Stats: 'stats',
 } as const;
 
@@ -51,7 +49,7 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  * Hero section
  */
 export const heroData: Hero = {
-    imageSrc: backgroundImage,
+    imageSrc: heroImage,
     name: `I'm Jack Doughty.`,
     description: (
         <>
@@ -87,101 +85,6 @@ export const aboutData: About = {
         {label: 'Work', text: 'micro1 | Strategic Account Lead', Icon: BuildingOffice2Icon},
     ],
 };
-
-/**
- * Skills section
- */
-export const skills: SkillGroup[] = [
-    {
-        name: 'AI & Data Delivery',
-        skills: [
-            {
-                name: 'LLM & Model Evaluation',
-                level: 8,
-            },
-            {
-                name: 'Benchmark & Dataset Design',
-                level: 8,
-            },
-            {
-                name: 'Human-Data Pipelines & QA',
-                level: 8,
-            },
-            {
-                name: 'Machine Learning Foundations',
-                level: 6,
-            },
-        ],
-    },
-    {
-        name: 'Programming & Data',
-        skills: [
-            {
-                name: 'Python',
-                level: 5,
-            },
-            {
-                name: 'SQL',
-                level: 5,
-            },
-            {
-                name: 'R',
-                level: 4,
-            },
-        ],
-    },
-    {
-        name: 'Data Visualization',
-        skills: [
-            {
-                name: 'Power BI',
-                level: 6,
-            },
-            {
-                name: 'Tableau',
-                level: 6,
-            },
-            {
-                name: 'Excel',
-                level: 5,
-            },
-        ],
-    },
-    {
-        name: 'Mathematics',
-        skills: [
-            {
-                name: 'Number Theory',
-                level: 9,
-            },
-            {
-                name: 'PDEs and ODEs',
-                level: 7,
-            },
-            {
-                name: 'Multivariate Calculus',
-                level: 7,
-            },
-        ],
-    },
-    {
-        name: 'Soft Skills',
-        skills: [
-            {
-                name: 'Communication and Collaboration',
-                level: 9,
-            },
-            {
-                name: 'Logic and Decision Making',
-                level: 9,
-            },
-            {
-                name: 'Time Management',
-                level: 7,
-            },
-        ],
-    },
-];
 
 /**
  * Resume section -- TODO: Standardize resume contact format or offer MDX
