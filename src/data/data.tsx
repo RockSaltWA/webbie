@@ -57,7 +57,7 @@ export const heroData: Hero = {
                 I’m a Seattle-based <strong className="text-stone-100">Strategic Account Lead at micro1</strong>, where I own a strategic enterprise account and lead the human-data and model-evaluation programs behind it. I hold a Master’s in Applied Math from the <strong className="text-stone-100">University of Washington</strong>, and I like turning messy research goals into datasets and deliveries that actually ship.
             </p>
             <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-                Before micro1 I ran GenAI data queues at Scale AI and drove product analytics at Microsoft. I’m always up for a strong <strong className="text-stone-100">Technical Program Manager</strong> or ML-delivery challenge, so let’s connect.
+                Before micro1 I ran GenAI data queues at Scale AI and drove product analytics at Microsoft.
             </p>
         </>
     ),
@@ -94,13 +94,11 @@ export const education: TimelineItem[] = [
         date: '2023',
         location: 'University of Washington',
         title: 'Masters in Applied and Computational Mathematics',
-        content: <p>Focused particularly on data science and analytics, along with data visualization</p>,
     },
     {
         date: '2022',
         location: 'College of Wooster',
         title: 'Applied Mathematics',
-        content: <p>Picked up the fundamentals of machine learning and wrote a thesis on Optimizing Paths in a Weighted Plane</p>,
     },
 ];
 
@@ -116,7 +114,8 @@ export const experience: TimelineItem[] = [
                 </p>
                 <ul>
                     <li>Own a strategic enterprise account end to end as its primary point of contact, driving the human-data and evaluation work from scoping and pricing through delivery, renewal, and ARR expansion.</li>
-                    <li>Lead multi-workstream delivery across benchmark builds, model evaluations, and data audits, holding quality, timelines, and margins on track at the same time.</li>
+                    <li>Lead multi-workstream delivery across benchmark builds, model evaluations, reinforcement-learning environments, and data audits, holding quality, timelines, and margins on track at the same time.</li>
+                    <li>Spun up reinforcement-learning environments for the account, designing RL task environments, reward and verification logic, and agent evaluation harnesses used to train and benchmark agentic models.</li>
                     <li>Built quality-control harnesses and audit pipelines that catch scoring and labeling defects before they reach the client, protecting delivery accuracy on high-stakes datasets.</li>
                     <li>Stood up the queue, staffing, and QA playbooks the human-data teams still run on, turning ad hoc processes into repeatable operations as headcount scaled.</li>
                     <li>Partner with client stakeholders on rubrics, edge cases, and roadmap, translating open-ended research goals into concrete task specs and acceptance criteria.</li>
@@ -137,7 +136,7 @@ export const experience: TimelineItem[] = [
                     <li>Owned end-to-end queue management across concurrent data pipelines serving thousands of contributors while meeting aggressive SLAs.</li>
                     <li>Partnered directly with Fortune 500 clients to scope and produce custom datasets to spec.</li>
                     <li>Defined task specs, scoring rubrics, and QA workflows for complex math (algebra → calculus → probability/stats), ensuring rigor and consistency.</li>
-                    <li>Helped lead ENIGMAEVAL, an innovative benchmark for evaluating long multimodal reasoning in state-of-the-art ML models, published on arXiv (hosted by Cornell University).</li>
+                    <li>Helped lead ENIGMAEVAL, an innovative benchmark for evaluating long multimodal reasoning in state-of-the-art ML models.</li>
                     <li>Built lightweight reporting to monitor throughput and quality, and cleared pipeline bottlenecks while optimizing staffing and priority.</li>
                     <li>Authored SOPs and ran live trainings and webinars to align global teams and lift first-pass acceptance.</li>
                     <li>Partnered with client stakeholders on edge cases and change requests, documenting decisions and playbooks to cut rework.</li>
